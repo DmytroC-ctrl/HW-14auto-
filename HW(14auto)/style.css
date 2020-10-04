@@ -1,0 +1,342 @@
+* {
+  font-family: "Arial", sans-serif;
+}
+header {
+  background-color: #445162;
+}
+.header {
+  width: 100%;
+  max-width: 1280px;
+  margin: 0 auto;
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-top: 50px;
+  padding-bottom: 38px;
+  box-sizing: border-box;
+  font-weight: 700;
+}
+.content {
+  display: grid;
+  grid-template-columns: repeat(2, 50%);
+}
+.about {
+  grid-template-columns: 56% 44%;
+}
+.about h2 {
+  text-align: left;
+}
+.img > img {
+  float: right;
+  position: relative;
+}
+.text {
+  color: #ffffff;
+}
+.text > h1 {
+  text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.3);
+  font-size: 60px;
+  font-weight: 400;
+  margin-top: -13px;
+  margin-bottom: 0pt;
+  margin-left: -5px;
+  padding-right: 0pt;
+}
+.header .text ul {
+  margin-top: 35px;
+  padding-left: 30px;
+}
+.header .text ul li {
+  font-size: 18px;
+  list-style-image: url(ico/Check.png);
+  padding-left: 5px;
+  position: relative;
+  margin-top: 11px;
+  margin-bottom: 12px;
+  margin-left: 0;
+  letter-spacing: 0.9px;
+  font-weight: 400;
+}
+h2 {
+  text-align: center;
+  color: #445161;
+  font-size: 30px;
+  font-weight: 400;
+  line-height: 36px;
+  margin-top: -8px;
+  letter-spacing: 0px;
+}
+p {
+  color: #333333;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+}
+.about p {
+  margin-bottom: 5px;
+  margin-top: 11px;
+}
+.container {
+  width: 100%;
+  max-width: 1280px;
+  margin: 0 auto;
+  padding-top: 50px;
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-bottom: 50px;
+  box-sizing: border-box;
+  font-weight: 700;
+}
+
+.dignity {
+  background-color: #f5f5f5;
+}
+.dignity .container {
+  padding-bottom: 20px;
+}
+
+.dignity > div > h2 {
+  margin-bottom: 5px;
+}
+.plus {
+  display: flex;
+  align-items: center;
+}
+.plus img {
+  margin-right: 10px;
+}
+.scrin {
+  display: flex;
+  align-items: center;
+}
+h3 {
+  text-align: center;
+  color: #445161;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 30px;
+  margin-top: -5px;
+  letter-spacing: 0px;
+}
+.screenshot p {
+  margin: 0px;
+  margin-right: 40px;
+  margin-bottom: 28px;
+  margin-top: -15px;
+}
+.screenshot img {
+  margin-bottom: auto;
+  margin-right: 15px;
+}
+.screen.row1 {
+  margin-right: 14px;
+}
+.screen.row2 {
+  margin-right: 14px;
+}
+.rewiews {
+  background-color: #f5f5f5;
+}
+.rewiews .bg {
+  background-image: url(ico/bg_review.png);
+  background-position: 0px 0px;
+  width: 483px;
+  height: 121px;
+}
+.rewiews img {
+  margin-top: 0;
+  margin-bottom: auto;
+}
+.rewiews .row1 .bg {
+  margin-bottom: 24px;
+}
+.rewiews .column1 .bg {
+  margin-right: 20px;
+}
+.rewiews .column2 {
+  margin-left: 15px;
+}
+
+.rewiews .bg .text {
+  padding: 16px 20px 16px 27px;
+}
+.rewiews .bg .text p {
+  color: #333333;
+  font-style: italic;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 18px;
+  margin-top: auto;
+  margin-bottom: 10px;
+}
+.rewiews .bg .text h4 {
+  color: #989898;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 18px;
+  margin-top: auto;
+}
+
+.buy h2 {
+  margin-bottom: 29px;
+}
+button {
+  background-color: #ffffff;
+  width: calc(100% - 40px);
+  margin: 20px;
+  padding: 7px 30px;
+  font-weight: bold;
+  text-align: center;
+  color: #445161;
+  font-size: 18px;
+  font-weight: 750;
+  line-height: 18px;
+  border-radius: 5px;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+}
+
+.content.price {
+  display: flex;
+  text-align: center;
+  justify-content: space-between;
+  align-items: flex-end;
+  padding-inline-end: 95px;
+  padding-inline-start: 95px;
+  font-weight: 400;
+}
+.card ul {
+  text-align: left;
+  list-style-type: none;
+  color: #ffffff;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+
+  display: block;
+  margin-block-start: 20px;
+  margin-block-end: 0px;
+  margin-inline-start: 19px;
+  margin-inline-end: 19px;
+  padding-inline-start: 0px;
+}
+.card {
+  display: inline-block;
+  background-color: #445162;
+  border-radius: 5px;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+}
+.card h3 {
+  color: #ffffff;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 30px;
+  margin-top: 17px;
+  margin-bottom: 17px;
+}
+
+.card p {
+  color: #445162;
+  border: #445162 solid 1px;
+  font-size: 40px;
+  font-weight: 400;
+  line-height: 30px;
+  background-color: #ffffff;
+  padding-block-start: 18px;
+  padding-block-end: 18px;
+  margin-block-start: 0;
+  margin-block-end: 0;
+}
+
+.contacts {
+  background-color: #445162;
+}
+.contacts .container {
+  max-width: 885px;
+  background-color: #445162;
+}
+.contacts .container .content {
+  display: grid;
+  grid-template-columns: 5fr 2.85fr;
+  text-align: center;
+}
+.textField {
+  width: 98%;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-right-width: 0px;
+  padding-right: 0px;
+  padding-left: 10px;
+  margin-bottom: 21px;
+  border-left-width: 0px;
+  border: 2px solid #445161;
+  border-radius: 5px;
+}
+
+*:focus {
+  outline: none;
+}
+
+form > input {
+  color: #445162;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+}
+#button {
+  color: #445162;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  text-transform: uppercase;
+  background-color: #ffffff;
+
+  margin-top: 20px;
+  padding: 14px 48px;
+  font-weight: bold;
+  color: #fff;
+  text-align: center;
+  color: #445161;
+  font-size: 18px;
+  font-weight: 750;
+  line-height: 18px;
+  text-transform: uppercase;
+  border-radius: 5px;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+}
+.contacts h2 {
+  align: center;
+  color: #ffffff;
+  font-size: 30px;
+  font-weight: 400;
+  line-height: 36px;
+}
+.contactField {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  padding-left: 0px;
+  margin-left: 46px;
+}
+.contactField p {
+  margin-left: 4px;
+  margin-top: 10px;
+  margin-bottom: 5px;
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+}
+
+.footer {
+  background-color: #f5f5f5;
+  text-align: center;
+  height: 25px;
+  color: #445162;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 24px;
+  margin-bottom: 10px;
+  letter-spacing: 0.3px;
+}
